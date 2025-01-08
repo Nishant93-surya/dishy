@@ -1,0 +1,292 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+.box1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  .col-sm-6, .col-sm-5 {
+    padding: 15px;
+  }
+
+  .box1 p{
+    font-size: 20px;
+    text-align: justify;
+  }
+   
+
+  .img_1 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: 1s;
+    
+  }
+
+  .img_1:hover{
+    transform: scale(.8);
+  }
+  
+
+  @media (max-width: 768px) {
+    .col-sm-6, .col-sm-5 {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    .box1 {
+      flex-direction: column;
+    }
+  
+    .col-sm-6 {
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .col-sm-6 {
+      width: 50%;
+    }
+  
+    .col-sm-5 {
+      width: 45%;
+    }
+  }
+  
+  
+  @media (min-width: 1200px) {
+    .box1 {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    .col-sm-6 {
+      width: 50%;
+    }
+  
+    .col-sm-5 {
+      width: 45%;
+    }
+  }
+
+
+  .circle_1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+    
+    
+}
+  
+  .col-sm-4, .col-sm-3 {
+    padding: 15px;
+  }
+  
+  .img_v {
+    padding-top: 40px;
+    width: 100%;
+    height: 82%;
+    border-radius: 20px;
+    margin-left:10px;
+    transition: 1s;
+  }
+  
+  .img_v:hover{
+    transform: scale(.8);
+  }
+
+  @media (max-width: 768px) {
+    .circle {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .col-sm-4, .col-sm-3 {
+      width: 100%; 
+      margin-bottom: 15px;
+    }
+  
+    .img_v {
+      max-width: 100%;
+    }
+  }
+  
+
+  @media (min-width: 768px) {
+    .col-sm-4 {
+      width: 32%; 
+    }
+  
+    .col-sm-3 {
+      width: 30%; 
+    }
+  }
+  
+
+  @media (min-width: 1200px) {
+    .circle {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    .col-sm-4, .col-sm-3 {
+      width: auto; 
+    }
+  }
+  
+
+.box4 {
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.box4 h4 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-family: capitalize;
+}
+
+.box4 p {
+    color: rgba(105, 107, 107, 0.603);
+    font-family: capitalize;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+.box5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 15px;
+  }
+  .box5 p{
+    font-size: 20px;
+    padding-top: 55px;
+    text-align: justify;
+  }
+  
+  .col-sm-6, .col-sm-5 {
+    padding: 15px;
+  }
+  
+
+  .box5 .img_2 {
+    width: 85%;
+    height: 80%;
+    padding-top: 30px;
+    border-radius: 50px;
+    margin-top: 35px;
+    padding-left: 15px;
+    transition: 1s;
+  }
+  .img_2:hover{
+    transform: scale(.8);
+  }
+  
+
+  @media (max-width: 768px) {
+    .col-sm-6, .col-sm-5 {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    .box5 {
+      flex-direction: column;
+    }
+  
+    .col-sm-6 {
+      margin-bottom: 10px;
+    }
+  }
+  
+  
+  @media (min-width: 768px) {
+    .col-sm-6 {
+      width: 50%;
+    }
+  
+    .col-sm-5 {
+      width: 45%;
+    }
+  }
+  
+
+  @media (min-width: 1200px) {
+    .box5 {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    .col-sm-6 {
+      width: 50%;
+    }
+  
+    .col-sm-5 {
+      width: 45%;
+    }
+  }
+
+button{
+    width: 20%;
+    height: 40%;
+    background-color: rgb(253, 16, 16);
+    color: white;
+    align-items: center;
+    border: none;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: capitalize;
+    border-radius:30px;
+    transition: 1s;
+}
+
+button:hover{
+    transform: scale(.9);
+}
+ button.col-sm-6{
+    width: 120px;
+    padding-top: 12px;
+    height: 55px;
+   text-align: center;
+   margin-left: 25%;
+   margin-top: 28px;
+}
+
+
+.col-sm-6 button {
+  width: 150px;
+  height: 60px;
+  margin-bottom: 100px;
+}
+
+.col-sm-6 h3{
+  font-family: capitalize;
+  font-weight: 200;
+}
+
